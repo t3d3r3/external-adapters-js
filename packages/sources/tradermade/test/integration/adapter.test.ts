@@ -124,7 +124,7 @@ describe('execute', () => {
         .set('Accept', '*/*')
         .set('Content-Type', 'application/json')
         .expect('Content-Type', /json/)
-        .expect(500)
+        .expect(404)
       expect(response.body).toMatchSnapshot()
     })
   })
