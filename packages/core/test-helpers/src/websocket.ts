@@ -45,6 +45,10 @@ export const mockWebSocketFlow = async (
     let currentExchange = 0
     server.on('connection', async (connection) => {
       connection.on('message', (received) => {
+        if (!flow[currentExchange]) {
+          console.warn(`Received value is not in flow. Received: ${received}`)
+          return
+        }
         const { request, response } = flow[currentExchange]
         let expected
         if (typeof request === 'string') {
