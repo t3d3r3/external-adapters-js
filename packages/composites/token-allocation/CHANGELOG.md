@@ -1,5 +1,12 @@
 # @chainlink/token-allocation-adapter
 
+## 1.3.19
+
+### Patch Changes
+
+- Updated dependencies [4721cf3a5]
+  - @chainlink/nomics-adapter@1.2.6
+
 ## 1.3.18
 
 ### Patch Changes
