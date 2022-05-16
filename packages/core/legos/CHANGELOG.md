@@ -1,5 +1,12 @@
 # @chainlink/ea
 
+## 1.0.87
+
+### Patch Changes
+
+- Updated dependencies [4721cf3a5]
+  - @chainlink/nomics-adapter@1.2.6
+
 ## 1.0.86
 
 ### Patch Changes
