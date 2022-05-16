@@ -1,5 +1,11 @@
 # @chainlink/nomics-adapter
 
+## 1.2.6
+
+### Patch Changes
+
+- 4721cf3a5: Add per-page field to nomics crypto endpoint
+
 ## 1.2.5
 
 ### Patch Changes
